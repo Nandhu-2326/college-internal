@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="internal.css">
+    <link rel="icon" href="logocollege/1698928001.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <title> College Internal Marks System</title>
+</head>
+<body class="">
+    <!-- head of logo -->
+<div class="container bg-danger con1 text-white">
+<div class="row p-3 text-end">
+<div class="col-4 mt-1">  
+<img src="logocollege/1698928001.jpg" class="img-fluid imgs text-md-end" alt="">
+</div>
+<div class="col-8 text-center text-md-start mt-sm-4 fw-semibold ">
+SOURASHTRA COLLEGE  (AUTONOMOUS) <br>
+Internal Mark System
+</div>
+</div>
+</div>
+<div class="alert alert-danger container  fw-bold alert-dismissible" >check-Details <i class="btn btn-close btnX"></i></div>
+<!-- head close -->
+
+
+<!-- user inter face -->
+<div class="container con2 mt-5 fw-semibold">
+    <div class="card p-3 bg-success text-white">
+<div class="row">
+    <div class="col-12 col-sm-6 text-sm-center mt-5 mt-sm-0">
+        <label for="" class=" "> User Name</label>
+          <input type="text" class="form-control un mt-2"  placeholder="User Name" value="" >
+        <label for="" class="check1 text-warning">Check Here !</label>
+    </div>
+    <div class="col-12 col-sm-6 text-sm-center mt-5 mt-sm-0">
+        <label for="" class=""> Password</label>
+        <input type="password" class="form-control up mt-2 "  value="" placeholder="Password" required>
+        <label for="" class="check2 text-warning">Check Here !</label>
+    </div>
+    <div class="col-12  mt-5 d-flex justify-content-center">
+        <button class="btn-info btn  text-white btnlog fw-semibold">Login</button>
+    </div>
+    <div class="col-12 d-flex justify-content-center mt-5">
+        <button class="btn-info btn text-white fw-semibold btncreate ">Create Account</button>
+   </div>
+  
+</div>
+</div>
+
+</div>
+<!-- user inter close -->
+
+
+<!-- page 3 -->
+ <div class="container page3 mt-5 text-white bg-success fw-semibold p-5">
+    <div class="card bg-success bg-opacity-50 text-white border border-white p-3">
+    <div class="row row-cols-1 row-cols-sm-2 p-1">
+        <div class="col mt-3">
+            <label for="">UG  or PG</label>
+                <select name="" id="" class="form-select sel1 mt-2">
+                    <option value="">--Select UG or PG--</option>
+                    <option value="Undergraduate">UG (Undergraduate)</option>
+                    <option value="Postgraduate">PG (Postgraduate)</option>
+                </select>
+                <label for="" class="check3 text-warning">Check Here !</label>
+            </div>
+        <div class="col mt-3">
+            <label for="">Student Year</label>
+            <select name="" id="" class="form-select sel5 mt-2">
+                <option value="">--Select Student Year--</option>
+                    <option value="I Year">I Year</option>
+                    <option value="II Year">II Year</option>
+                    <option value="III Year">III Year</option>
+                </select>
+                <label for="" class="check4 text-warning">Check Here !</label>
+         </div>
+        </div>
+        <div class="col mt-3 d-flex justify-content-center">
+         <button class="btn btn-info text-center p3submit text-white">Submit</button>  
+       </div>
+ </div>
+ </div>
+
+
+<!-- page 3 close-->
+ 
+
+<!-- Student Details -->
+<div class="container con3 mt-5 text-white bg-success fw-semibold p-5">
+    <div class="card bg-success bg-opacity-50 text-white border border-white p-3">
+    <div class="row row-cols-1 row-cols-sm-2 p-1">
+        <div class="col mt-3">
+                <label for="">Student Name</label>
+                <input type="text" name="" id="" class="form-control sel2 mt-2">                   
+            </div>
+        <div class="col mt-3">
+                <label for="">Course</label>
+                <select name="" id="" class="form-select sel3 mt-2">
+                    <option value=""> <-Select Course-> </option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Cloud Computing">Cloud Computing</option>
+                    <option value="Artificial Intelligence">Artificial Intelligence</option>
+                </select>
+            </div>
+        <div class="col mt-3">
+                <label for="">Class </label>
+                <select name="" id="" class="form-select sel4 mt-2">
+                    <option value=""><--Select Class--></option>
+                    <option value="Class-A">Class A</option>
+                    <option value="Class-B">Class B</option>
+                </select>
+            </div>
+            <div class="col mt-3">
+                <label for="">Student Roll Number</label>
+                <input type="text"  class="form-control roll mt-2" placeholder="Student Roll Number">
+            </div>
+            <div class="col mt-3">
+                <label for="" class="label">Internal Mark- I</label>
+            <input type="Number" class="form-control mt-2 inter1" name="" id="" value="" step="1" placeholder="Internal Mark-I" min="0" max="30">
+        </div>
+        <div class="col mt-3">
+            <label for="" class="label">Internal Mark- II</label>
+            <input type="number" class="form-control mt-2 inter2" value="" name="" id="" placeholder="Internal Mark-II" min="0" max="30">
+        </div>
+        <div class="col mt-3">
+            <label for="">Assignment Mark</label>
+            <select name="" id="" class="form-select sel6 mt-2">
+                <option value=""><-Select Marck-></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div class="col mt-3">
+            <label for="">Seminar Mark</label>
+            <select name="" id="" class="form-select sel7 mt-2">
+                <option value=""><-Select Mark-></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+    
+        </div>
+    </div>
+    
+ </div>
+ <div class="row row-cols-1">
+     <div class="col text-center">
+         <button class="btn-primary btn mt-3 submit text-white ">Submit</button>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- Student Details close -->
+
+<!-- signup page -->
+<div class="container con5 mt-5 fw-semibold">
+    <div class="card p-3 bg-info text-white">
+<div class="row">
+    <div class="col-12 col-sm-6 text-sm-center mt-5 mt-sm-0">
+        <label for="" class="">Create User Name</label>
+          <input type="text" class="form-control mt-2" placeholder="User Name">
+
+    </div>
+    <div class="col-12 col-sm-6 text-sm-center mt-5 mt-sm-0">
+        <label for="" class="">Create Password</label>
+          <input type="password" class="form-control mt-2 " placeholder="Password">
+    </div>
+    <div class="col-12  mt-5 d-flex justify-content-center">
+         <button class="btn-success btn  text-white btnsign fw-semibold">Signup</button>
+    </div>
+</div>
+</div>
+
+</div>
+<!-- signup page -->
+
+<!-- Student Table -->
+<div class="container con4 mt-5">
+    <div class="row">
+        <div class="col">
+            <div class="table-responsive">
+            <table class=" table  table-info table-striped bordered-light table-hover ">
+            <tr class="tr table-active table-primary">
+                <th>Total</th>
+                <th>Average</th>
+               <th >Student Roll Number</th>
+               <th>Resular / Self</th>
+               <th>Course</th>
+               <th>Class</th>
+               <th>Internal Mark-I</th>
+               <th>Internal Mark-II</th>
+               <th>Student Year</th>
+               <th>Assignment Mark</th>
+               <th>Seminar Mark</th>
+               <th>Degree</th>
+            </tr>
+            <tbody class="tbody">
+                
+            </tbody>
+            <button class="back btn btn-primary btnback text-center text-white">Back</button>
+        </table>
+        </div>
+        </div>
+    </div>
+</div>
+
+  
+
+</div>
+<!-- Student Table close -->
+
+
+
+
+ 
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="internal.js"></script>
+</body>
+</html>

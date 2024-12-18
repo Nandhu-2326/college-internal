@@ -1,0 +1,11 @@
+.imgs
+{
+    width: 75px;
+    height: 75px;
+    border-radius: 55px;
+}
+.con3,.con4,.con5,.alert,.check1,.check2,.page3,.check3,.check4
+{
+    display:none;
+}
+
